@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/BTN6"
+                android:layout_width="185dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:text="CARI POM"
+                android:textColor="#8B0000"
+                android:background="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15dp" />
+            
+            <Button
+                android:id="@+id/Godftr"
+                android:layout_width="185dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="DAFTAR POM"
+                android:textColor="#8B0000"
+                android:background="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/BTN8"
+                android:layout_width="185dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="PETUNJUK"
+                android:textColor="#8B0000"
+                android:background="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15dp" />
+            
+            <Button
+                android:id="@+id/BTN7"
+                android:layout_width="185dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.00"
+                android:text="PROFIL"
+                android:textColor="#8B0000"
+                android:background="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/BTN9"
+                android:layout_width="185dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="ABOUT"
+                android:textColor="#8B0000"
+                android:background="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15dp" />
+            
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="61dp"
+                android:layout_height="45dp"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginTop="10dp"
+                android:text="Created by :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8B0000" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="Aditya Rachmat"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8B0000" />
+
+            
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+   
+</LinearLayout>

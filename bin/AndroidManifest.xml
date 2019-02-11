@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carilokasi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <permission
+    android:name="com.example.carilokasi.permission.MAPS_RECEIVE"
+    android:protectionLevel="signature" />
+<uses-permission android:name="com.example.carilokasi.permission.MAPS_RECEIVE"/>
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+	 <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+	<application 		
+	    android:allowBackup="true" 		
+	    android:icon="@drawable/ic_launcher" 		
+	    android:label="@string/app_name" 		
+	    android:theme="@style/AppTheme" >
+		<!-- Google Maps API V2 -->
+		<meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value=" AIzaSyDkpQEuhA098YI8HOQTjatxKk7zfdnItXk " />
+	
+        
+          <activity
+            android:name="com.example.carilokasi.Splash"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Lay1">
+        </activity>
+         <activity android:name=".Utama">
+         </activity>
+         <activity android:name=".Maps_test">
+         </activity>
+         <activity android:name=".About">
+         </activity>
+          <activity android:name=".Pom">
+         </activity>
+          <activity android:name=".Pom1">
+         </activity>
+         <activity android:name=".Pom2">
+         </activity>
+         <activity android:name=".Pom3">
+         </activity>
+           <activity android:name=".Lokasi">
+         </activity>
+          <activity android:name=".Map1">
+         </activity>
+         <activity android:name=".Map2">
+         </activity>
+         <activity android:name=".Map3">
+         </activity>
+          <activity android:name=".List1">
+         </activity>
+         <activity android:name=".Activity_list">
+         </activity>
+         <activity android:name=".Tampung">
+         </activity>
+         <activity android:name=".Test">
+         </activity>
+         <activity android:name=".ListAdapter">
+         </activity>
+          <activity android:name=".Pom4">
+         </activity>
+         <activity android:name=".Pom5">
+         </activity>
+         <activity android:name=".Pom6">
+         </activity>
+         <activity android:name=".Pom7">
+         </activity>
+         <activity android:name=".Pom8">
+         </activity>
+         <activity android:name=".Pom9">
+         </activity>
+         <activity android:name=".Pom10">
+         </activity>
+         <activity android:name=".Pom11">
+         </activity>
+         <activity android:name=".Pom12">
+         </activity>
+         <activity android:name=".Pom13">
+         </activity>
+         <activity android:name=".Pom14">
+         </activity>
+         <activity android:name=".Pom15">
+         </activity>
+          <activity android:name=".Pom16">
+         </activity>
+         <activity android:name=".Pom17">
+         </activity>
+         <activity android:name=".Pom18">
+         </activity>
+         <activity android:name=".Pom19">
+         </activity>
+         <activity android:name=".Pom20">
+         </activity>
+         <activity android:name=".Pom21">
+         </activity>
+         <activity android:name=".Pom22">
+         </activity>
+          <activity android:name=".Pom23">
+         </activity>
+         <activity android:name=".Pom24">
+         </activity>
+         <activity android:name=".Pom25">
+         </activity>
+         <activity android:name=".Pom26">
+         </activity>
+         <activity android:name=".Pom27">
+         </activity>
+         <activity android:name=".Pom28">
+         </activity>
+         <activity android:name=".Terdekat">
+         </activity>
+         <activity android:name=".LokasiTerdekat">
+         </activity>
+         
+         
+    </application>
+
+</manifest>
